@@ -35,7 +35,7 @@ His intention was to create a language which would help novice programmers learn
 ## **_Functional Programming_**
 here is a link to a bit of Functional Programming 
 
-- https://ianmcloughlin.github.io/2017/10/30/functional-programming.html
+https://ianmcloughlin.github.io/2017/10/30/functional-programming.html
 
 
 ## **_DrRacket IDE_**
