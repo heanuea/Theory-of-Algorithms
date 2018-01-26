@@ -53,6 +53,10 @@ DrRacket is available for Windows (95 and up), Mac OS X, Unix, and Linux with th
 
 
 # **_Problem Sheets_**
+I have a print out of problems with the answers on WIKI page follow links own below 
+
+**Problem Sheet 1**
+- https://github.com/heanuea/Theory-of-Algorithms/wiki/Problem-Sheet-1
 
 **here are links to my github repos to problem sheets we did in labs**
 
