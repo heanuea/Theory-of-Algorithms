@@ -1,5 +1,5 @@
 
-
+To see Problem and Solutions go to the Wiki or select this link [Wiki](https://github.com/heanuea/Theory-of-Algorithms/wiki/Problem-Sheet-1)
 ## **_About Me_**
 
 My name is Alan Heanue I am a 4th year software development Studying in the Galway-Mayo Intitute of Technology
