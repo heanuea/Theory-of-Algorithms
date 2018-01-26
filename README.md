@@ -20,7 +20,7 @@ Racket was originally developed as part of the PLT ("Programming Language Team")
 His intention was to create a language which would help novice programmers learn more about the potential of computers.
 
 
-## **_HELLO WORLD WRITTEN IN RACKET_**
+## **_Hello world Example _**
 
 - Hello world Program 
 
