@@ -20,9 +20,9 @@ Racket was originally developed as part of the PLT ("Programming Language Team")
 His intention was to create a language which would help novice programmers learn more about the potential of computers.
 
 
-## **_Hello world Example _**
+## **_Hello world Example_**
 
-- Hello world Program 
+**Hello world Program**
 
 ```Racket
 
@@ -57,6 +57,7 @@ DrRacket is available for Windows (95 and up), Mac OS X, Unix, and Linux with th
 **here are links to my github repos to problem sheets we did in labs**
 
 # **_Programming Tasks_**
+
 
 
 ### **_References_**
