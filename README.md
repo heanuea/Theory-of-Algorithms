@@ -7,7 +7,7 @@ This is one of 5 modules i am Working on this semester it focuses mainly on Theo
 
 # **_RACKET_**
 
-![alt tag](http://www.rmnd.net/wp-content/uploads/2015/03/185924.png)
+![alt tag](http://www.rmnd.net/wp-content/uploads/2015/03/185924.png | width=100)
 
 
 ## **__An Overview of Racket__**
