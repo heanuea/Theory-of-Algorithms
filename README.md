@@ -28,7 +28,7 @@ His intention was to create a language which would help novice programmers learn
 "Hello, World!"
 
 ```
-## **_How to Run _**
+## **__How to Run__**
 To run the labs or problems sheets just copy my repositry and download the DrRackket IDE from the link below......
 - https://download.racket-lang.org/
 
