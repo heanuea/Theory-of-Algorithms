@@ -28,6 +28,17 @@ His intention was to create a language which would help novice programmers learn
 "Hello, World!"
 
 ```
+## **_How to Run _**
+To run the labs or problems sheets just copy my repositry and download the DrRackket IDE from the link below......
+- https://download.racket-lang.org/
+
+After you installed follow these steps 
+
+1. Down on bottom of IDE select Language i am using RACKET. 
+2. than open file where you downloaded the repo to . 
+3. Run the project 
+
+
 ## **_Functional Programming_**
 here is a link to a bit of Functional Programming 
 
@@ -49,65 +60,13 @@ DrRacket is available for Windows (95 and up), Mac OS X, Unix, and Linux with th
 
 
 # **_Problem Sheets_**
-I have a print out of problems with the answers on a WIKI page follow links own below
+I have a print out of problems with the answers on a page follow links own below
 
 **Problem Sheet 1**
-- https://github.com/heanuea/Theory-of-Algorithms/wiki/Problem-Sheet-1
+- https://github.com/heanuea/Theory-of-Algorithms/tree/master/ProblemSheet1
 
 
 
-# **_Programming Tasks_**
-
-### Task1
-
-1. Write, from scratch, a function in Racket that uses a brute-force algorithm that takes
-    a single positive integer and return true if the number is a prime and false otherwise.
-    Call the function decide-prime.
-    
- **solution**
-```Racket
-#lang racket
-
-; setting range for a prime num needs to be more than 1 
-(define range 2) 
-(define (decide-prime? n);called function decide-prime 
-  
-;setting condition 
-   (not   (for/or [(d (in-range range n))]=
-   ; check if is fully dividable
-      (= 0 (remainder n d))))) 
-     
-; range to 10 
-(for [(m (in-range range 10))]
-  (display "\n")(display m)(display "= ")
-  ; pass current number to fucntion
-  (display (decide-prime? m))) 
-```
-
-### Task2
-
-2. Write, from scratch, a function in Racket that takes a positive integer n0 as input
-    and returns a list by recursively applying the following operation, starting with the
-    input number.
-    ni+1 =
-    (
-    3ni + 1 if ni
-    is odd
-    ni ÷ 2 otherwise
-    End the recursion when (or if) the number becomes 1. Call the function collatz-list.
-    So, collatz-list should return a list whose first element is n0, the second element
-    is n1, and so on. For example:
-
-```Racket
-    > (collatz-list 5)
-    '(5 16 8 4 2 1)
-    > (collatz-list 9)
-    '(9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1)
-    > (collatz-list 2)
-    '(2 1)
-```
-
-**solution**
 
 
 ### **_References_**
