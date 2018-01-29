@@ -11,7 +11,7 @@ if it is true on the set of pure numbers.
 The Collatz sequence can be stated in several ways. This paper uses a traditional formulation.
 For n a positive integer, we define the function C by
 
-        ![alt tag](https://github.com/heanuea/Theory-of-Algorithms/blob/master/Task2/Task2pix.png)
+![alt tag](https://github.com/heanuea/Theory-of-Algorithms/blob/master/Task2/Task2pix.png)
 
 and denote its iterates Ck(n). The Collatz conjecture says that for all positive n, there exists
 k such that Ck(n) = 1.
