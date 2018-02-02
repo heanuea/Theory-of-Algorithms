@@ -5,7 +5,7 @@
 
 
 
-(define (collatz )
+(define (collatz '())
 
   ;function 
   (define (collatz-list n counter)
@@ -19,6 +19,9 @@
             (collatz-list (+ (* n 3) 1) (+ counter 1))))))
 
 
+(odd 4)
+(even 4)
+(collatz-list 10)
 
 ;-----------------------------------------------
 
