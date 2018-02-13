@@ -12,6 +12,10 @@ The Collatz sequence can be stated in several ways.
 
 ![alt tag](https://github.com/heanuea/Theory-of-Algorithms/blob/master/Task2/Task2pix.png)
 
+## **_Example_**
+For instance, starting with n = 12, one gets the sequence 12, 6, 3, 10, 5, 16, 8, 4, 2, 1.
+
+
  **solution**
 ```Racket
 #lang racket
@@ -32,4 +36,8 @@ The Collatz sequence can be stated in several ways.
 ```
 
 
+## **_References_**
 
+- https://en.wikipedia.org/wiki/Collatz_conjecture#Examples
+- https://stackoverflow.com/questions/19285547/collatz-function-in-scheme
+- https://gist.github.com/gscacco/783ab3a9856eee6263509a248c8ffead
