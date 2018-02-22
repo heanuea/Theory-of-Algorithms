@@ -18,21 +18,32 @@ For instance, starting with n = 12, one gets the sequence 12, 6, 3, 10, 5, 16, 8
 
  **solution**
 ```Racket
+
 #lang racket
 
 
-(define (collatz-list n)
-  (if (even? n)
-      (/ n 2)
-      (+ (* 3 n) 1)))
- 
-(define (collatz-range m)
-  (for-each (lambda (n) (collatz-list n))
-            (stream->list (in-range 5 m))))
- 
+
+(display "Problem 2 \n")
+(define (collatz-list n);define function
+  (if (= n 1);check if n = 1
+      
+      (cons n true)
+      
+   (cons n(if (integer? (/ n 2))
+
+          (collatz-list (/ n 2));recursion 
+          (collatz-list (+ 1 (* n 3)))))
+      )
+  )
+
+ ;Print out list for testing
+(display "\nResults: ")
 (collatz-list 5)
+(display "\nResults: ")
 (collatz-list 9)
-(collatz-list 2)  
+(display "\nResults: ")
+(collatz-list 2) 
+
 ```
 
 
