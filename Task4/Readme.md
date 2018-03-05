@@ -9,5 +9,36 @@
   > (sublsum (list 1 2 3 4 5)) '()
   ```
 
+## **_combinations_**
 
 
+
+Here is a baic example how combinations work with racket..
+```Racket
+(define sublists
+  (match-lambda**
+   [(0 _)           '(())]
+   [(_ '())         '()]
+   [(m (cons x xs)) (append (map (curry cons x) (sublists (- m 1) xs)) 
+                            (sublists m xs))]))
+ 
+(define (combinations n m)
+  (sublists n (range m)))
+```
+### Output:
+```
+> (combinations 3 5)
+'((0 1 2)
+  (0 1 3)
+  (0 1 4)
+  (0 2 3)
+  (0 2 4)
+  (0 3 4)
+  (1 2 3)
+  (1 2 4)
+  (1 3 4)
+  (2 3 4))
+```
+
+
+- https://lists.racket-lang.org/users/archive/2005-June/009010.html
