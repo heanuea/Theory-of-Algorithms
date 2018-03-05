@@ -9,7 +9,7 @@
   > (sublsum (list 1 2 3 4 5)) '()
   ```
 
-### **_Here is aa version that uses Combinations and filter the lists but no subset_** 
+### **_Here is a version that uses Combinations and filter the lists but no subset_** 
 
  ```Racket
 #lang racket
@@ -34,7 +34,7 @@
 
  ```
 
-### **_Here is aa version that subsets a list but need to combine the 2_** 
+### **_Here is a version that subsets a list but need to combine the 2_** 
 
  ```Racket
  #lang racket 
