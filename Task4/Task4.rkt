@@ -7,9 +7,6 @@
   (for ([e (in-list (combinations l) )])
     (if(= 0 (mySum e))
        (displayln e) '())))
-
-
-
 (define (mySum l)
   ;checks to see if list is empty 
   (if(not(null? l));
