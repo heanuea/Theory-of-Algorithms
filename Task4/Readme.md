@@ -14,7 +14,7 @@
  ```Racket
 #lang racket
  ;This procedure returns trun if some (non-empty) sublist of l sums to 0.
-(define (subsetsum l)
+(define (sublsum l)
   ; If there is more than one sublist then return true.
   ; Note the null list always sums to zero but isn't considered a solution.
   (> (length
@@ -30,7 +30,7 @@
 (define L (list -10 -2 -4 9 5 8 6 1 10 20 3 -5 5 6 10 15 20))
 
 ; Call the function.
-(subsetsum L)
+(sublsum L)
 
  ```
 
