@@ -41,3 +41,10 @@ For example:
 So we see in this problem we have 3 functions one to move element to the left of the list and one to the an element to the right. 
 With the right(rcycle) we had to move the element to the right but also had to remove the element (remove-last).
 With the left all we had to do is move a 1 place to the left and put that element to the end wasnt as difficult as the the right. 
+
+
+## **_References_**
+
+https://stackoverflow.com/questions/29425944/racket-accumulator-list-function
+https://docs.racket-lang.org/reference/pairs.html
+https://docs.racket-lang.org/guide/Lists__Iteration__and_Recursion.html
