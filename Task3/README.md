@@ -45,6 +45,6 @@ With the left all we had to do is move a 1 place to the left and put that elemen
 
 ## **_References_**
 
-https://stackoverflow.com/questions/29425944/racket-accumulator-list-function
-https://docs.racket-lang.org/reference/pairs.html
-https://docs.racket-lang.org/guide/Lists__Iteration__and_Recursion.html
+- https://stackoverflow.com/questions/29425944/racket-accumulator-list-function
+- https://docs.racket-lang.org/reference/pairs.html
+- https://docs.racket-lang.org/guide/Lists__Iteration__and_Recursion.html
