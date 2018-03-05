@@ -7,6 +7,14 @@
 
 
 
+(define (mySum l)
+  (if(empty? l) 0
+     (for/sum ((i l))
+    i)
+  1
+  ))
+
+
 
 
 ;define lists
