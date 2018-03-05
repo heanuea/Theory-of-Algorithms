@@ -11,27 +11,3 @@
 
 
 
- ```Racket
-
- ```
-
-### **_Here is a version that subsets a list but need to combine the 2_** 
-
- ```Racket
- #lang racket 
-
-
-
-(define (sublsum 1)
-  
-       (define (sublists lst)
-      (if (null? lst)
-          '()
-          (cons (list(car lst))(sublists (cdr lst)))
-         )
-    )
-      
-    (sublists '(1 2 3))
- 
- ```
-
