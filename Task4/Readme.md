@@ -10,6 +10,10 @@
   ```
 
 ## **_combinations_**
+
+In this problem we had to use a built in function called combinations i jst put a little read me about combinations in Scheme below. 
+
+```
 From Wikipedia, the free encyclopedia
 This article is about the mathematics of selecting part of a collection. For other uses, see Combination (disambiguation).
 "COMBIN" redirects here. For other uses, see Combin (disambiguation).
@@ -24,7 +28,7 @@ which can be written using factorials as n ! k ! ( n − k ) ! {\displaystyle \t
 Combinations refer to the combination of n things taken k at a time without repetition. To refer to combinations in which repetition is allowed, the terms k-selection,[1] k-multiset,[2] or k-combination with repetition are often used.[3] If, in the above example, it were possible to have two of any one kind of fruit there would be 3 more 2-selections: one with two apples, one with two oranges, and one with two pears.
 
 Although the set of three fruits was small enough to write a complete list of combinations, with large sets this becomes impractical. For example, a poker hand can be described as a 5-combination (k = 5) of cards from a 52 card deck (n = 52). The 5 cards of the hand are all distinct, and the order of cards in the hand does not matter. There are 2,598,960 such combinations, and the chance of drawing any one hand at random is 1 / 2,598,960.
-
+```
 
 Here is a baic example how combinations work with racket..
 ```Racket
