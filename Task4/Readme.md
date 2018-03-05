@@ -52,6 +52,7 @@ Here is a baic example how combinations work with racket..
   (1 3 4)
   (2 3 4))
 ```
-
-
+## **_References_**
+- https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28lib._racket%2Flist..rkt%29._combinations%29%29
 - https://lists.racket-lang.org/users/archive/2005-June/009010.html
+- https://rosettacode.org/wiki/Combinations#Haskell
