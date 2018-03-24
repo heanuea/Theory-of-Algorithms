@@ -13,8 +13,7 @@
       (+ 1 (hamming-distance (cdr l) (cdr t)))))) 
 
 
-;pring out the distance 
+;print out the distance 
 (displayln '(Here is the distance between 2 list))
 (hamming-distance (list 1 1 1 1 0 0 0 0) (list  1 0 1 0 1 1 1 0))
-
 
