@@ -20,10 +20,7 @@ Majority function (sometimes quorum function) is a threshold function that produ
   (if (null? x)
      ; 
       '()
-      ; conditon to see where two or more
-      ;of x, y and z contain 1’s, and 0 otherwise
-      (cond 
-        ((= (car x) (car y)) (cons (car x) (maj (cdr x) (cdr y) (cdr z))))
+      r y)) (cons (car x) (maj (cdr x) (cdr y) (cdr z))))
         ((= (car x) (car z)) (cons (car x) (maj (cdr x) (cdr y) (cdr z))))
         ;= otherwise 
         (else (cons (car y) (maj (cdr x) (cdr y) (cdr z))))
