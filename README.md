@@ -1,5 +1,5 @@
 
-To see Problem and Solutions go to the Wiki or select this link [Wiki](https://github.com/heanuea/Theory-of-Algorithms/wiki/Problem-Sheet-1)
+To see all Problem and Solutions go to the Wiki or select this link instead of going into each folder [Wiki](https://github.com/heanuea/Theory-of-Algorithms/wiki/Tasks-All)
 
 # **_RACKET_**
 
